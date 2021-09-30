@@ -1,4 +1,5 @@
 import Categories from "./categories";
+import Companies from "./companies";
 import Hero from "./hero";
 import RecommendedJobs from "./recommended-jobs";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <RecommendedJobs />
       <Categories />
+      <Companies />
     </div>
   );
 };

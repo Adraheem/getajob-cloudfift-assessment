@@ -10,6 +10,7 @@ import n9mobile from "./9mobile.svg";
 import accenture from "./accenture.svg";
 import mckinsey from "./mckinsey.svg";
 import zapier from "./zapier.svg";
+import brands from "./brands.svg";
 
 export {
   logo,
@@ -24,4 +25,5 @@ export {
   accenture,
   mckinsey,
   zapier,
+  brands,
 };
