@@ -1,0 +1,54 @@
+@import "../../../styles/colors.scss";
+
+.hero {
+    margin-bottom: 40vh;
+}
+.heroBg {
+    height: 130vh;
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    z-index: -1;
+}
+.trustedBrand {
+    height: 25px;
+    filter: grayscale(100%) opacity(60%);
+}
+.heroText {
+    font-size: 3rem;
+}
+.heroImg {
+    height: calc(100vh - 200px);
+    max-height: 800px;
+    position: relative;
+    margin: 40px 0;
+    z-index: 5;
+
+    > div {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        z-index: 6;
+
+        > img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border: 2px solid $primary-color;
+        z-index: 3;
+        top: 20px;
+        left: 20px;
+        border-radius: 20px;
+    }
+}

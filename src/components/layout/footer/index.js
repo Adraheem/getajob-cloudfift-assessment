@@ -4,8 +4,8 @@ import styles from "../../../styles/modules/layout.module.scss";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className="uk-container uk-container-large">
+    <footer className="uk-container uk-container-large">
+      <div className={styles.footer}>
         <div className="uk-grid-large" data-uk-grid>
           <div className="uk-width-1-4">
             <p>
@@ -41,7 +41,11 @@ const Footer = () => {
               {footerSocials.map((social, idx) => (
                 <div key={idx}>
                   <a href={social.url} title={social.title}>
-                    <img src={social.image} alt={social.title} />
+                    <img
+                      src={social.image}
+                      alt={social.title}
+                      className={styles.socialIcon}
+                    />
                   </a>
                 </div>
               ))}
