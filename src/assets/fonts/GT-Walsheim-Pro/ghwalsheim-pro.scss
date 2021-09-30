@@ -1,12 +1,14 @@
+$gtw: "GT Walsheim Pro";
+
 @font-face {
-    font-family: 'GT Walsheim Pro';
+    font-family: $gtw;
     src: url(./GTWalsheimPro-Medium.woff2);
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'GT Walsheim Pro';
+    font-family: $gtw;
     src: url(./GTWalsheimPro-Bold.woff2);
     font-style: normal;
     font-weight: 700;

@@ -1,23 +1,13 @@
 import "./styles/getajob-uikit.css";
 import "./styles/global.scss";
+import Layout from "./components/layout";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Seekers alike
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 

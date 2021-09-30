@@ -1,2 +1,31 @@
-@import '../assets/fonts/Graphik/graphik.scss';
-@import '../assets/fonts/GT-Walsheim-Pro/ghwalsheim-pro.scss';
+@import "../assets/fonts/Graphik/graphik.scss";
+@import "../assets/fonts/GT-Walsheim-Pro/ghwalsheim-pro.scss";
+@import "colors";
+
+body {
+    color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $gtw;
+}
+.border-rounded {
+    border-radius: 200px;
+}
+
+// OVERRIDE UIKIT STYLES ****************************
+
+.uk-navbar-nav > li > a,
+.uk-button {
+    text-transform: unset;
+}
+.uk-button-primary-light {
+    background-color: $primary-color-bg;
+    color: $primary-color;
+    font-weight: 500;
+}
