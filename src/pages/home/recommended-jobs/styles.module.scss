@@ -1,0 +1,17 @@
+.slider {
+    overflow: unset;
+}
+.sliderItems {
+    > li {
+        width: 22.2%;
+    }
+}
+.arrows {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: right;
+
+    .arrowLeft {
+        margin-right: 15px;
+    }
+}
