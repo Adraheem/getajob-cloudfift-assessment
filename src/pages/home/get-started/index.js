@@ -12,7 +12,7 @@ const GetStarted = () => {
             Create an account and start applying
           </p>
           <p>
-            <button className="uk-button uk-button-primary border-rounded uk-width-medium">
+            <button className="uk-button uk-button-primary uk-button-large border-rounded uk-width-medium">
               Get started
             </button>
           </p>

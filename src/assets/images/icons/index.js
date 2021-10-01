@@ -10,6 +10,7 @@ import dam from "./d-a-m.svg";
 import technology from "./technology.svg";
 import security from "./security.svg";
 import dataAnalyst from "./data-analyst.svg";
+import howItWorks from "./how-it-works-check.svg";
 
 export {
   instagram,
@@ -24,4 +25,5 @@ export {
   technology,
   security,
   dataAnalyst,
+  howItWorks,
 };
