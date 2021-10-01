@@ -5,10 +5,12 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     color: $text-color;
     overflow-x: hidden;
-    width: 100%;
+    position: relative;
+    width: 100vw;
 }
 
 h1,
