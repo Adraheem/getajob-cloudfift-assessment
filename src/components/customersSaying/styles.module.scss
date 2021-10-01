@@ -1,0 +1,53 @@
+@import "../../styles/colors.scss";
+
+.cust {
+    height: 350px;
+}
+.customer {
+    height: 300px;
+    position: relative;
+    margin: 25px 0;
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border: 2px solid $primary-color;
+        z-index: 3;
+        top: 10px;
+        left: 10px;
+        border-radius: 20px;
+    }
+
+    > div {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 20px;
+        position: relative;
+        z-index: 5;
+
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+.customerText {
+    position: relative;
+
+    &::before {
+        content: "“";
+        position: absolute;
+        font-size: 250px;
+        line-height: 250px;
+        font-family: "GT Walsheim Pro";
+        top: -60px;
+        left: -10px;
+        color: rgba(6, 148, 42, 0.2);
+        z-index: -1;
+    }
+}

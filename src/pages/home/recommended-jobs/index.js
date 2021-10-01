@@ -11,7 +11,7 @@ const RecommendedJobs = () => {
       <div className="uk-margin-large-top">
         <div
           className={`uk-position-relative uk-visible-toggle ${styles.slider}`}
-          tabindex="-1"
+          tabIndex="-1"
           data-uk-slider="finite: true"
         >
           <ul className={`uk-slider-items ${styles.sliderItems} uk-grid`}>
