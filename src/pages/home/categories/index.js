@@ -9,7 +9,7 @@ const Categories = () => {
       <h2 className="uk-text-center uk-text-bold">Popular Categories</h2>
 
       <div
-        className="uk-margin-medium-top uk-grid-small uk-child-width-1-4 uk-grid-match"
+        className="uk-margin-medium-top uk-grid-small uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-1 uk-grid-match"
         data-uk-grid
       >
         {categories.map((category, idx) => (

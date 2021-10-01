@@ -14,7 +14,7 @@ const RecommendedJobs = () => {
           tabIndex="-1"
           data-uk-slider="finite: true"
         >
-          <ul className={`uk-slider-items ${styles.sliderItems} uk-grid`}>
+          <ul className={`uk-slider-items uk-grid-match ${styles.sliderItems} uk-grid`}>
             {recommendedJobs.map((job, index) => (
               <li key={index}>
                 <JobCard {...job} />

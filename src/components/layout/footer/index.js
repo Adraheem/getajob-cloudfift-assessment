@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="uk-container uk-container-large">
       <div className={styles.footer}>
         <div className="uk-grid-large" data-uk-grid>
-          <div className="uk-width-1-4">
+          <div className="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
             <p>
               <img src={logoAlt} alt="Getajobng" className={styles.logo} />
             </p>
@@ -17,8 +17,8 @@ const Footer = () => {
               new job. We're not a recruitment agency, we're a job site.
             </p>
           </div>
-          <div className="uk-width-1-2">
-            <div className="uk-grid-small uk-child-width-1-3" data-uk-grid>
+          <div className="uk-width-1-2@s uk-width-1-1">
+            <div className="uk-grid-column-small uk-child-width-1-3@m uk-child-width-1-2" data-uk-grid>
               {footerLinks.map((fl, i) => (
                 <div key={i}>
                   <h4>{fl.title}</h4>
@@ -34,7 +34,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="uk-width-1-4">
+          <div className="uk-width-1-4@m uk-width-1-1">
             <h4>Social Media:</h4>
 
             <div className="uk-grid-small uk-child-width-auto" data-uk-grid>

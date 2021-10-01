@@ -9,7 +9,7 @@ const Hero = () => {
       <img src={heroRectangle} alt="rect" className={styles.heroBg} />
 
       <div
-        className="uk-grid-large uk-child-width-1-2 uk-flex-middle"
+        className={`uk-grid-large uk-child-width-1-2@m uk-child-width-1-1 uk-flex-middle ${styles.grid}`}
         data-uk-grid
       >
         <div>
@@ -26,7 +26,7 @@ const Hero = () => {
 
           <p>Trusted by:</p>
           <div
-            className="uk-grid uk-child-width-auto uk-flex-middle"
+            className={`uk-grid uk-child-width-auto uk-flex-middle ${styles.tdb}`}
             data-uk-grid
           >
             <div>

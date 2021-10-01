@@ -8,10 +8,10 @@ const Companies = () => {
       className={`uk-container uk-container-large uk-margin-xlarge-bottom uk-position-relative ${styles.container}`}
     >
       <div className={styles.bg} />
-      <div className="uk-child-width-1-2 uk-flex-middle" data-uk-grid>
+      <div className={`uk-child-width-1-2@m uk-child-width-1-1 uk-flex-middle ${styles.grid}`} data-uk-grid>
         <div>
-          <div className="uk-flex uk-flex-right">
-            <div className="uk-width-2-3">
+          <div className="uk-flex uk-flex-right@m">
+            <div className="uk-width-2-3@m uk-width-4-5@s uk-width-1-1">
               <h2 className="uk-text-bold uk-margin-medium-bottom">
                 Over 1000+ jobs from top companies in our network
               </h2>
@@ -35,7 +35,7 @@ const Companies = () => {
           </div>
         </div>
         <div>
-          <div className="uk-flex uk-flex-right">
+          <div className="uk-flex uk-flex-right@m uk-flex-center">
             <img src={brands} alt="Brand" className={styles.brandLogos} />
           </div>
         </div>

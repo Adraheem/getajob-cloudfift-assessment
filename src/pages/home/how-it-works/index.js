@@ -7,9 +7,9 @@ const HowItWorks = () => {
   return (
     <div className="uk-container uk-container-large uk-margin-xlarge-bottom">
       <div className="uk-grid-large uk-flex-middle" data-uk-grid>
-        <div className="uk-width-expand">
+        <div className="uk-width-expand@m uk-child-width-1-1">
           <div className="uk-flex uk-flex-right">
-            <div className="uk-width-5-6">
+            <div className="uk-width-5-6@s uk-width-1-1">
               <div
                 className={`uk-child-width-1-2 uk-grid-large ${styles.cardList}`}
                 data-uk-grid
@@ -23,7 +23,7 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="uk-width-2-5">
+        <div className="uk-width-2-5@m uk-child-width-1-1">
           <h2 className="uk-text-bold uk-margin-large-bottom">How it works</h2>
           <p>
             Getajob helps you find the right job easily. Getajob helps you find
@@ -31,7 +31,12 @@ const HowItWorks = () => {
           </p>
 
           <h4 className={styles.hiw}>
-            <img src={howItWorks} alt="Check" /> <span>Search Jobs</span>
+            <div className="uk-grid-small uk-flex-middle" data-uk-grid>
+              <div className="uk-width-auto">
+                <img src={howItWorks} alt="Check" />
+              </div>
+              <div className="uk-width-expand">Search Jobs</div>
+            </div>
           </h4>
           <p>
             We have jobs in the most popular industries and with top companies.
@@ -39,8 +44,14 @@ const HowItWorks = () => {
           </p>
 
           <h4>
-            <img src={howItWorks} alt="Check" />{" "}
-            <span>Create a Profile and Get Noticed</span>
+            <div className="uk-grid-small uk-flex-middle" data-uk-grid>
+              <div className="uk-width-auto">
+                <img src={howItWorks} alt="Check" />
+              </div>
+              <div className="uk-width-expand">
+                Create a Profile and Get Noticed
+              </div>
+            </div>
           </h4>
           <p>
             Create a profile to showcase your skills and experience so
@@ -49,7 +60,12 @@ const HowItWorks = () => {
           </p>
 
           <h4>
-            <img src={howItWorks} alt="Check" /> <span>Apply for jobs</span>
+            <div className="uk-grid-small uk-flex-middle" data-uk-grid>
+              <div className="uk-width-auto">
+                <img src={howItWorks} alt="Check" />
+              </div>
+              <div className="uk-width-expand">Apply for jobs</div>
+            </div>
           </h4>
           <p>
             Find the training you need to improve your skills, or visit our

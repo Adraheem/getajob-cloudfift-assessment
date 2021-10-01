@@ -20,7 +20,7 @@ const SearchComponent = () => {
 
   return (
     <div
-      className={`uk-width-5-6 uk-margin-medium-top uk-margin-medium-bottom ${styles.searchBox}`}
+      className={`uk-width-5-6@s uk-width-1-1 uk-margin-medium-top uk-margin-medium-bottom ${styles.searchBox}`}
     >
       <form className="uk-height-1-1" onSubmit={handleSubmit}>
         <div
